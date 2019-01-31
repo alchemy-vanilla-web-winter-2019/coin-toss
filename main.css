@@ -1,0 +1,11 @@
+.hidden {
+    visibility: hidden;
+}
+
+.result-count {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 15px 45px 15px 15px;
+    margin-right: 10px;
+
+}

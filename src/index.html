@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coin Flip</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header><h1>Coin Flip</h1></header>
+    <main>
+        <section id="image-box">
+            <img src="../assets/coin-button.jpg" alt="coin being flipped" id="coin-pic">
+        </section>
+        <section>
+            <h2>Guess The Coin Flip!</h2>
+                <p class="description">(heads looks like a button)</p>
+                <p class="description">(tails looks like a horse)</p>
+            <form id="flip-the-coin">
+                <input type="radio" value="heads" name="guesser" id="heads" checked>
+                <label id="heads">Heads</label>
+                <input type="radio" value="tails" name="guesser" id="tails">
+                <label id="tails">Tails</label>
+                <button>Flip The Coin</button>
+            </form>
+            
+                
+        </section>
+        <section>
+            <p>Correct: <span id="count-heads">0</span></p>
+            <p>Incorrect: <span id="count-tails">0</span></p>
+        </section>
+    </main>
+    <footer>&copy; Cosmo Lightfoot 2019 LLC</footer>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

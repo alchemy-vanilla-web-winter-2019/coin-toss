@@ -1,0 +1,21 @@
+body {
+    font-family: fantasy;
+    text-align: center;
+}
+img {
+    
+    width: 203px;
+    height: 203px;
+    
+}
+button {
+    font-family: fantasy;
+}
+
+footer {
+    font-size: 10px;
+    
+}
+.description {
+    font-size: 11px;
+}

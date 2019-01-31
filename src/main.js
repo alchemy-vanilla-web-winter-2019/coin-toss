@@ -23,8 +23,9 @@ flipForm.addEventListener('submit', function(event){
     }
     else {
         imageSource = '../assets/coin-button.jpg';
-
     }
+   
+    picNode.classList.remove('hidden');
 
     picNode.src = imageSource;
 

@@ -1,7 +1,7 @@
 function headsOrTails(randomNumber) {
     let result = '';
 
-    if(randomNumber > 0.5) {
+    if(randomNumber < 0.5) {
         result = 'heads';
 
     }
@@ -9,9 +9,7 @@ function headsOrTails(randomNumber) {
         result = 'tails';
     }
 
-    return result;
-
-  
+    return result;  
     
 }
 

@@ -14,19 +14,19 @@ let tailsCount = 0;
 
 formInput.addEventListener('submit', function(event) {
     event.preventDefault();
+
     const randomNumber = Math.random();
     const coinFlip = headsOrTails(randomNumber);
-
     let imageSource = '';
 
     if(coinFlip === 'heads') {
-        imageSource = 'heads../assets/front.jpg';
+        imageSource = './assets/front.jpg';
         frontCount++;
-        frontNode.text.content = frontCount;
+        frontNode.textContent = frontCount;
     }
 
     else {
-        imageSource = '../assets/tail.jpg';
+        imageSource = './assets/tail.jpg';
         tailsCount++;
         tailsNode.textContent = tailsCount;
     }
@@ -35,6 +35,12 @@ formInput.addEventListener('submit', function(event) {
     coinPics.classList.remove('hidden');
 
 
+});
+
+formInput.addEventListener('submit', function(event){
+    event.preventDefault();
+
+    
 });
 
 

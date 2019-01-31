@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Gritty or Shaggy?</title>
+</head>
+<body>
+    <header>
+        <h1>Gritty or Shaggy?</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2 id="status">Win? Lose?</h2>
+            Wins <span id="win-count">0</span>
+            Losses <span id="loss-count">0</span>
+        </section>
+
+        <section id="image-container">
+            <img id="picture" class="hidden" src="" alt="a picture of Gritty or Shaggy">
+        </section>
+
+        <section>
+            <form id='flip-form'>
+                <label id="item">
+                    <input type="radio" name="animal" value="Gritty" required checked>Gritty
+                </label>
+
+                <label id="item">
+                    <input type="radio" name="animal" value="Shaggy" required>Shaggy
+                </label>
+                <button id="button">Push me daddio</button>
+            </form>
+        </section>
+    </main>
+<script type="module" src="src/main.js"></script>
+
+    
+</body>
+</html>

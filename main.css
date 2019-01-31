@@ -1,0 +1,29 @@
+.hidden{
+    visibility: hidden;
+}
+
+#image-container{
+    height: 300px;
+    width: 300px;
+}
+
+#picture{
+    height: 300px;
+
+}
+
+#flip-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#item{
+    padding-bottom: 10px;
+}
+
+#button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+
+}

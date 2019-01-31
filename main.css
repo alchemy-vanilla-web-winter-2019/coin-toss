@@ -11,10 +11,14 @@ img {
 }
 
 section {
-    margin: 10px;
+    margin: 20px;
 }
 
 body{
     text-align: center;
     font-family: fantasy;
+}
+
+#tally {
+    font-size: 25px;
 }

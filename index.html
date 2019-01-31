@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Flippy Coin</title>
+    <title>Horse or Button</title>
 </head>
 <body>
     <header>
-        <h1>Flippy Coin!</h1>
+        <p>Let's play</p>
+        <h1>Cute as  Button, Strong as a Horse!</h1>
     </header>
     <main>
         <section id="intro">
-            <h2>Let's flip a coin!</h2>
+            <p>You're about to flip a coin. On one side is a mangy, scrawny horse. On the other is an old beat-up button. Take a guess at which side of the coin will show when flipped: malnourished horse or old button. I'll track your wins and losses as you go.</p>
         </section>
         <section id="guess-results">
             <p></p>
+        </section>
+        <section id="results-count">
+            Wins: <span id="win-count">0</span> |
+            Losses: <span id="loss=count">0</span>
         </section>
         <section id="pic-area">
             <img src="" id="coin-pic" class="hidden">
         </section>
         <section>
             <form id="flip-form">
-                <label for="heads">Heads</label>
-                <input type="radio" value="heads" name="flip" id="heads" checked>
-                <label for="tails">Tails</label>
-                <input type="radio" value="tails" name="flip" id="tails">
+                <label for="horse">Horse</label>
+                <input type="radio" value="horse" name="flip" id="horse" checked>
+                <label for="button">Button</label>
+                <input type="radio" value="button" name="flip" id="button">
                 <button>Submit</button>
             </form>
         </section>

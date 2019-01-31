@@ -3,18 +3,18 @@ const test = QUnit.test;
 import coinFlip from '../src/coin-flip.js';
 
 
-test('return heads if randomNumber < 0.5', function(assert) {
+test('return horse if randomNumber < 0.5', function(assert) {
     const randomNumber = 0.3;
     const result = coinFlip(randomNumber);
-    const expected = 'heads';
+    const expected = 'horse';
     
     assert.equal(result, expected);
 });
 
-test('return tails if randomNumber >= 0.5', function(assert) {
+test('return button if randomNumber >= 0.5', function(assert) {
     const randomNumber = 0.7;
     const result = coinFlip(randomNumber);
-    const expected = 'tails';
+    const expected = 'button';
     
     assert.equal(result, expected);
 });

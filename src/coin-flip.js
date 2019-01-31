@@ -2,10 +2,10 @@ function coinFlip(randomNumber) {
     let result = '';
 
     if(randomNumber < 0.5) {
-        result = 'heads';
+        result = 'horse';
     }
     else {
-        result = 'tails';
+        result = 'button';
     }
     return result;
 }

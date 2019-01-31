@@ -2,9 +2,12 @@ import coinFlip from './coin-flip.js';
 
 const picNode = document.getElementById('coin-pic');
 const flipForm = document.getElementById('flip-form');
+const winNode = document.getElementById('win-count');
+const lossNode = document.getElementById('loss-count');
+ 
 
-// let winCount = '';
-// let lossCount = '';
+let winCount = 0;
+let lossCount = 0;
 
 flipForm.addEventListener('submit', function(event){
     event.preventDefault();
@@ -15,7 +18,7 @@ flipForm.addEventListener('submit', function(event){
 
     let imageSource = '';
 
-    if(result === 'heads') {
+    if(result === 'horse') {
         imageSource = '../assets/coin-horse.jpg';
         
     }
@@ -29,11 +32,15 @@ flipForm.addEventListener('submit', function(event){
 
     if(result === flipGuess){
         guessResults.textContent = 'You win!';
-        console.log('that is right');
+        winCount++;
+        console.log('win ' + winCount);
+        winNode.
+
     }
     else {
         guessResults.textContent = 'You lose!';
-        console.log('that is wrong');
+        lossCount++;
+        console.log('loss ' + lossCount);
 
     }
     

@@ -1,0 +1,20 @@
+#pic {
+    height: 300px;
+}
+
+img {
+    height: 250px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+section {
+    margin: 10px;
+}
+
+body{
+    text-align: center;
+    font-family: fantasy;
+}

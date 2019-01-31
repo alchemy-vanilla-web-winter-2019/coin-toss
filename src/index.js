@@ -10,3 +10,4 @@ flipForm.addEventListener('submit', function(event) {
     console.log(randomNumber);
 
 });
+

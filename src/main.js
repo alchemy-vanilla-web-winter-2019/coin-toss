@@ -23,8 +23,10 @@ flipForm.addEventListener('submit', function(event){
         imageSource = '../assets/coin-button.jpg';
 
     }
+
     picNode.src = imageSource;
     console.log(flipGuess);
+
     if(result === flipGuess){
         guessResults.textContent = 'You win!';
         console.log('that is right');
@@ -35,5 +37,4 @@ flipForm.addEventListener('submit', function(event){
 
     }
     
-
 });

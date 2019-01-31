@@ -1,0 +1,24 @@
+#pic {
+    height: 300px;
+}
+
+img {
+    height: 250px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+section {
+    margin: 20px;
+}
+
+body{
+    text-align: center;
+    font-family: fantasy;
+}
+
+#tally {
+    font-size: 25px;
+}

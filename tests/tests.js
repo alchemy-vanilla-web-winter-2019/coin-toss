@@ -2,7 +2,7 @@ const test = QUnit.test;
 import coinToss from '../coin-toss.js';
 
 test('returns heads when >= .5', function(assert) {
-    const inputNumber = .7;
+    const inputNumber = .5;
     const expected = 'Heads';
     const result = coinToss(inputNumber);
     assert.equal(result, expected);

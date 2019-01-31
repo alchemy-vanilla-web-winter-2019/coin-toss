@@ -10,20 +10,20 @@ coinForm.addEventListener('submit', function(event) {
     //console.log('button pressed');
 
     const randomNumber = Math.random();
-    console.log(randomNumber);
+    //console.log(randomNumber);
 
     const coin = coinToss(randomNumber);
 
     if(coin === 'heads') {
         image.src = './assets/heads.jpg';
         result.textContent = 'It\'s Heads!';
-        console.log('heads');
+        //console.log('heads');
     }
 
     else {
         image.src = './assets/tails.png';
         result.textContent = 'It\'s Tails!';
-        console.log('tails');
+        //console.log('tails');
     }
 
     image.classList.remove ('hidden');

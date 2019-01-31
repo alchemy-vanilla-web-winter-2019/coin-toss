@@ -11,7 +11,15 @@ flipForm.addEventListener('submit', function(event) {
     const tossResult = flipIt(randomNumber);
     //above I have the heads or tails results from flipIt
     console.log(tossResult);
-    // let imageSource = '';
     
+    
+    let imageSource = '';
+    if(tossResult === 'heads') {
+        imageSource = '../assets/cowhead.jpg';
+    } else {
+        imageSource = '../assets/cowbutt.gif';
+    }
+
+    flipImage.src = imageSource;
 });
 

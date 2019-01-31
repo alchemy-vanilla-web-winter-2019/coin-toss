@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="main.css">
     <title>Coin Toss</title>
 </head>
+
 <body>
     <header>
         <h1>Heads or Tails?</h1>
@@ -14,36 +15,29 @@
     <main>
 
         <section>
-            <img src="" class="hidden" id="coin-pic">
+            <p>
+                Wins: <span id="wins">0</span> Losses: <span id="losses">0</span>
+            </p>
         </section>
-
+        
+        <section id="image-container">
+            <img class="hidden" id="coin-pic">
+        </section>
+        
         <section>
             <form id="flip-form">
-
+                
                 <label for="heads">Heads</label>
                 <input type="radio" id="heads" name="flip" value="heads">
-
+                
                 <label for="tails">Tails</label>
                 <input type="radio" id="tails" name="flip" value="tails">
-
+                
                 <button>FLIP ME</button>
-
             </form>
         </section>
-
         
-        
-        <section>
-            <p>
-                Wins: <span id="wins">0</span> 
-            </p>
-
-            <p>
-            Losses: <span id="losses">0</span>
-            </p>
-
-        </section>
-
+        <section id="bet-result"></section>
     </main>
 
     <footer>&copy; MAM</footer>

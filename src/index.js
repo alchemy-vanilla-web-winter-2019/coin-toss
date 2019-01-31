@@ -6,6 +6,7 @@ const coinPic = document.getElementById('coin-pic');
 const flipForm = document.getElementById('flip-form');
 const winNode = document.getElementById('wins')
 const lossNode = document.getElementById('losses');
+const betResult = document.getElementById('bet-result');
 
 flipForm.addEventListener('submit', function(event) {
     event.preventDefault();
@@ -24,10 +25,12 @@ flipForm.addEventListener('submit', function(event) {
     if(bet === flipResult) {
         winCount++;
         winNode.textContent = winCount;
+        betResult.textContent = 'YOU WIN!';
     }
     else {
         lossCount++;
         lossNode.textContent = lossCount;
+        betResult.textContent = 'YOU LOSE!';
     }
-    console.log(coinPic);
-})
+    
+});

@@ -2,8 +2,32 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+}
+
 .hidden {
     visiblity: hidden;
     width: 250px;
+}
+
+#image-container {
+    height: 250px;
+    width: 250px;
+}
+
+#flip-form {
+    padding: 10px;
+}
+
+#bet-result {
+    padding: 10px;
+    font-size: 28px;
+    color: rgb(22, 106, 196)
+}
+
+footer {
+    padding: 20px;
 }
 

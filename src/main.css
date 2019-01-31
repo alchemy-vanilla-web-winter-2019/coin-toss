@@ -1,0 +1,9 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hidden {
+    visiblity: hidden;
+    width: 250px;
+}
+

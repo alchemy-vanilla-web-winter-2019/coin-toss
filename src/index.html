@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<import coinFlip from './coin-flip.js'></import>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,12 +19,34 @@
 
         <section>
             <form id="flip-form">
+
+                <label for="heads">Heads</label>
+                <input type="radio" id="heads" name="flip" value="heads">
+
+                <label for="tails">Tails</label>
+                <input type="radio" id="tails" name="flip" value="tails">
+
                 <button>FLIP ME</button>
+
             </form>
+        </section>
+
+        
+        
+        <section>
+            <p>
+                Wins: <span id="wins">0</span> 
+            </p>
+
+            <p>
+            Losses: <span id="losses">0</span>
+            </p>
+
         </section>
 
     </main>
 
     <footer>&copy; MAM</footer>
+    <script type="module" src="index.js"></script>
 </body>
 </html>

@@ -9,7 +9,6 @@ flipForm.addEventListener('submit', function(event) {
     const randomNumber = Math.random();
 
     const tossResult = flipIt(randomNumber);
-    //above I have the heads or tails results from flipIt
     console.log(tossResult);
     
     

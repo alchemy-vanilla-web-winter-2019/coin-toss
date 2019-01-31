@@ -9,32 +9,41 @@
 </head>
 
 <body>
+    <header >
+        <h1>Roman Roulette</h1>
+       
+    </header>
     <main>
 
-        <section>
-            <header >
-                <h1>Roman Roulette</h1>
-                <h2 id = "results"></h2>
-            </header>
-        </section>
-
         <section id="images">
-            <img src="/assets" alt="coin-image" class="hidden">
+
+            <img src="assets/" id="coins" alt="coin-image" class="hidden">
+
         </section>
 
         <section>
-            <label for="button">
-                <button id = "input">Submit</button>
-            </label>
+            <form id="form-input">
             
-            <label for="heads"><input type="radio" id = "tails">
-                Heads    
-            </label>
-
-            <label for="tails"></label>Tails
-            <input type="radio" id="tails">
-            </label>
+                  
+            <label for="heads">Heads</label>
+        
+            <input type="radio" id = "tails" value="heads" name = "side" >
+            
+            <label for="tails">Tails</label>
+            <input type="radio" id="tails" value="tails"
+            name="side">
+            
+            
+            <button id = "input">Submit</button>
+            </form>
+            
         </section>
+
+        <section>
+            <p>Heads Up <span id="head-count"></span></p>
+            <p>Bottoms Up <span id="tails-count"></span>  </p>
+        </section>
+
 
 
 
@@ -42,6 +51,6 @@
     </main>
     <footer>&copy;Roman Empire 350 B.C.</footer>
     
+    <script type="module" src="src/index.js"></script>
 </body>
-<script src="index.js"></script>
 </html>

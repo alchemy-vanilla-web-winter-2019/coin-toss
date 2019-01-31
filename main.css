@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#image-container {
+    width: 50%;
+    margin: auto;
+}
+
+img {
+    max-width: 200px;
+    margin: 20px;
+}
+
+.result-count {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 15px;
+    margin-right: 10px;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+button {
+    background: #94BFA7;
+    border: 1px solid #2f2f2f;
+    padding: 10px;
+    font-size: 18px;
+}

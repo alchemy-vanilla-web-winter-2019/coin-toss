@@ -32,13 +32,13 @@ flipForm.addEventListener('submit', function(event){
     if(result === flipGuess){
         guessResults.textContent = 'You win!';
         winCount++;
-        winNode.innerText = winCount;
+        winNode.textContent = winCount;
 
     }
     else {
         guessResults.textContent = 'You lose!';
         lossCount++;
-        lossNode.innerText = lossCount;
+        lossNode.textContent = lossCount;
     }
     
 });

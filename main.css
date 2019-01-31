@@ -1,0 +1,16 @@
+#image-container {
+    border: 5px dotted purple;
+    height: 200px;
+    width: 200px;
+    background: rgba(0, 85, 128, 0.456);
+}
+#flip-image {
+    height: 200px;
+    width: 200px;
+}
+body {
+    background: rgb(94, 73, 179);
+}
+.hidden {
+    visibility: hidden;
+}

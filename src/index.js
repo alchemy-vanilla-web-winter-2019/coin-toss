@@ -21,5 +21,6 @@ flipForm.addEventListener('submit', function(event) {
     }
 
     flipImage.src = imageSource;
+    flipImage.classList.remove('hidden');
 });
 

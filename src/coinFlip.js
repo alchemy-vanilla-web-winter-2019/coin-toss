@@ -1,4 +1,4 @@
-function coinFlip (randomNumber) {
+function coinFlip(randomNumber) {
     let result = '';
     if(randomNumber < 0.5) {
         result = 'heads';

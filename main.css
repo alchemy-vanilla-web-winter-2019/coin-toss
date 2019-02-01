@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+header {
+    background: lightcoral;
+    margin: 0px;
+    padding: 35px 50px;
+}
+
+header p {
+    font-size: 22px;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+
+main {
+    background: lightpink;
+    margin: 0px;
+    padding: 35px 50px;
+    font-size: 18px;
+}
+
+footer {
+    background: lightsalmon;
+    padding: 15px 25px;
+}
+
+#guess-results {
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+
+#pic-area  {
+    width: 200px;
+    height: 200px;
+    border: 2px solid lightblue;
+    text-align: center;
+    background: white;
+    margin: 20px auto;
+
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#coin-pic {
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid lightblue; */
+}
+
+button {
+    padding: 15px 25px;
+    margin: 10px 0px;
+    border: 1px solid coral;
+    font-size: 16px;
+    color: coral;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Ubuntu" rel="stylesheet">
+
+    <title>Horse or Button</title>
+</head>
+<body>
+    <header>
+        <p>Let's play</p>
+        <h1>Cute as a Button, Strong as a Horse!</h1>
+    </header>
+    <main>
+        <section id="intro">
+            <p>You're about to flip a coin. On one side is a mangy horse. On the other is a beat-up button. Take a guess at which side of the coin will show when flipped: malnourished horse or old button. I'll track your wins and losses as you go.</p>
+        </section>
+        <section id="guess-results">
+            <p></p>
+        </section>
+        <section id="results-count">
+            Wins: <span id="win-count">0</span> |
+            Losses: <span id="loss-count">0</span>
+        </section>
+        <section id="pic-area">
+            <img src="" id="coin-pic" class="hidden">
+        </section>
+        <section>
+            <form id="flip-form">
+                <label for="horse">Horse</label>
+                <input type="radio" value="horse" name="flip" id="horse" checked>
+                <label for="button">Button</label>
+                <input type="radio" value="button" name="flip" id="button"><br/>
+                <button>Submit</button>
+            </form>
+        </section>
+            
+    </main>
+    <footer>
+        <p>&copy; Ben Parisot 2019</p>
+    </footer>
+    <script type="module" src="../src/main.js"></script>
+</body>
+</html>

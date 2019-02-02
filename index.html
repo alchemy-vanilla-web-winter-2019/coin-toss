@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>You Betchya!!!</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header >
+        <h1>Roman Roulette</h1>
+       
+    </header>
+    <main>
+
+        <section class="picture-box" >
+
+            <img src="assets/" id="coins" alt="coin-image" class="hidden">
+
+        </section>
+
+        <section>
+            <form id="form-input">
+            
+                  
+            <label for="heads">Heads</label>
+        
+            <input type="radio" id = "heads" value="heads" name = "side" checked>
+            
+            <label for="tails">Tails</label>
+            <input type="radio" id="tails" value="tails"
+            name="side">
+            
+            
+            <button id = "input">Submit</button>
+            </form>
+            
+        </section>
+
+        <section>
+            <p>Heads Up <span id="head-count"></span></p>
+            <p>Bottoms Up <span id="tails-count"></span>  </p>
+        </section>
+
+
+
+
+
+    </main>
+    <footer>&copy;Roman Empire 350 B.C.</footer>
+    
+    <script type="module" src="src/index.js"></script>
+</body>
+</html>

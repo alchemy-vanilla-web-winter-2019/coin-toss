@@ -1,0 +1,17 @@
+.hidden {
+    visibility: hidden;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+
+}
+
+#picture-box {
+    border: 1px dotted black;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}ls

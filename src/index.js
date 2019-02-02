@@ -2,7 +2,7 @@
 import headsOrTails from './heads-or-tails.js';
 
 const coinPics = document.getElementById('coins');
-const frontNode = document.getElementById('head=count');
+const frontNode = document.getElementById('head-count');
 const tailsNode = document.getElementById('tails-count');
 const formInput = document.getElementById('form-input');
 

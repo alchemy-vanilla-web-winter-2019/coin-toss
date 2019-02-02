@@ -1,5 +1,6 @@
 const test = QUnit.test;
 
+import catOrDog from '../src/cat-or-dog.js';
 
 test('If number is below .5 then show a cat', function(assert){
     const result = catOrDog(.2); 

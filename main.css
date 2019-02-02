@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #666666;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+
+#image-container {
+    border: 6px solid salmon;
+    background-color: salmon;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;   
+    margin: 10px 0;
+}
+
+#animal-image {
+    width: 100%;
+}
+
+.hidden {
+    visibility: hidden;
+}

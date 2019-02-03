@@ -8,7 +8,6 @@ let loss = 0;
 let winCount = document.getElementById('win-count');
 let lossCount = document.getElementById('loss-count');
 
-
 former.addEventListener('submit', function(event) {
     event.preventDefault();
     const direction = leftOrRight(Math.random());
@@ -21,7 +20,6 @@ former.addEventListener('submit', function(event) {
     image.src = imageSource;
     image.classList.remove('hidden');
 
-    
     const choice = former.direction.value;
     let status = document.getElementById('status');
 

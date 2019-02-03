@@ -1,0 +1,15 @@
+body {
+    font-family: courier;
+    text-align: center;
+}
+
+#image-container {
+    border: 2px dashed black
+    width: 300px;
+    height: auto;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}

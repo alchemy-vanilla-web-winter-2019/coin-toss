@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Left or Right</title>
+</head>
+<body>
+    <header>
+        <h1>Left or Right?</h1>
+    </header>
+    <main>
+        <section>
+            <h2 id="status">Did you win?</h2>
+            <h3>
+                Wins: <span id="win-count">0</span> --
+                Loses: <span id="loss-count">0</span>
+            </h3>
+        </section>
+
+        <figure id="container">
+            <img id="arrow-pic" class="hidden" src="">
+        </figure>
+
+        <section>
+            <form id="former">
+                <h3>Pick one</h3>
+                <label>
+                    <input type="radio" name="direction" value="left" required >Left
+                </label>
+                <label>
+                    <input type="radio" name="direction" value="right" required>Right
+                </label>
+                <br />
+                <button>PRESS FOR GLORY</button>
+            </form>
+        </section>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>

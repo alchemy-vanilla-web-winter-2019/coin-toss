@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+}
+
+#image-container {
+    width: 50%;
+    height: 275px;  
+    margin: auto;
+}
+

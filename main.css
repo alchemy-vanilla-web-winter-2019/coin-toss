@@ -13,3 +13,12 @@ body {
     margin: 3px;
     margin-left: 25px;
 }
+
+#image-section, #coin-image {
+    border: 1px solid black;
+    width: 100px;
+    height: 125px;
+    position: relative;
+    margin-bottom: 14px;
+}
+

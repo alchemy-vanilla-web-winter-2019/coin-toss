@@ -14,11 +14,25 @@ body {
     margin-left: 25px;
 }
 
-#image-section, #coin-image {
+#image-section, #coin-image, .hidden {
+    background: black;
     border: 1px solid black;
     width: 100px;
     height: 125px;
     position: relative;
     margin-bottom: 14px;
 }
+
+a {
+    color: black
+}
+
+#wins {
+    color: green;
+}
+
+#loss {
+    color: red;
+}
+
 

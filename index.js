@@ -5,8 +5,11 @@ const image = document.getElementById('coin-image');
 const remove = document.getElementById('image-section');
 const headsCount = document.getElementById('heads-count');
 const tailsCount = document.getElementById('tails-count');
-const winsCount = document.getElementById('wins');
-const lossCount = document.getElementById('loss');
+//const winsCount = document.getElementById('wins');
+// const lossCount = document.getElementById('loss');
+//const headsRadio = document.getElementsById('heads-radio').checked;
+// const tailsRadio = document.getElementsById('tails-radio').checked;
+
 
 let heads = 0;
 let tails = 0;
@@ -22,17 +25,18 @@ pickForm.addEventListener('submit', function(event){
         image.src = 'assets/heads.jpeg';
         heads++;
         headsCount.textContent = 'Heads Count: ' + heads;
-        winsCount.textContent = 'Wins Count: ' + heads;
     } else {
         image.src = 'assets/tails.jpeg';
         tails++;
         tailsCount.textContent = 'Tails Count: ' + tails;
-        lossCount.textContent = 'Loss Count: ' + tails;
     }
     console.log(image);
     console.log(face);
     console.log(randomNumber);
     
-    image.classList.remove('hidden');
-
+    image.classList.add('hidden');
 });
+
+// if(document.getElementById('heads-radio').checked) {
+//   }else if(document.getElementById('tails-radio').checked) {
+//   }

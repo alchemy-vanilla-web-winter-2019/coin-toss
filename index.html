@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Flipper</title>
+</head>
+<body>
+    <header>
+        <h1>Flipper Flip Flip Flipper</h1>
+    </header>
+    
+    <main>
+        <section id="image-container">
+            <img id="flip-image" class="hidden" src="" alt="image indicating heads or tails">
+        </section>
+        
+        <section>
+            <p>Flip a Proverbial Coin - Heads or Tails?</p>
+        </section>
+
+        <section>
+            <form id="flip-form">
+                <div id="flip-pick">
+                    <input type="radio" id="heads" name="predict" value="heads">
+                    <label for="heads">Heads</label>
+
+                    <input type="radio" id="tails" name="predict" value="tails">
+                    <label for="tails">Tails</label>
+                </div>
+                <button type="submit">Click to Flip</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer></footer>
+
+    <script type="module" src="src/index.js"></script>
+</body>
+</html>

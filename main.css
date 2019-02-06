@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+#image-container {
+    border: 5px dotted purple;
+    height: 200px;
+    width: 200px;
+    background: rgba(0, 85, 128, 0.456);
+    display: inline-block;
+}
+#flip-image {
+    height: 200px;
+    width: 200px;
+}
+
+/* #frog-image {
+    width: 200px;
+    display: inline-block;
+} */
+
+body {
+    background: rgb(94, 73, 179);
+}
+.hidden {
+    visibility: hidden;
+}

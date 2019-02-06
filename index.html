@@ -11,19 +11,26 @@
     <header>
         <h1>Flipper Flip Flip Flipper</h1>
     </header>
-
+    
     <main>
         <section id="image-container">
             <img id="flip-image" class="hidden" src="" alt="image indicating heads or tails">
         </section>
-
+        
         <section>
             <p>Flip a Proverbial Coin - Heads or Tails?</p>
         </section>
 
         <section>
             <form id="flip-form">
-                <button>Click to Flip</button>
+                <div id="flip-pick">
+                    <input type="radio" id="heads" name="predict" value="heads">
+                    <label for="heads">Heads</label>
+
+                    <input type="radio" id="tails" name="predict" value="tails">
+                    <label for="tails">Tails</label>
+                </div>
+                <button type="submit">Click to Flip</button>
             </form>
         </section>
 

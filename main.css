@@ -13,12 +13,10 @@ img {
     width: 130px;
 }
 
-background {
-    color: papayawhip;
-}
-
 h1 {
     font-family: monospace;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 body {
@@ -26,5 +24,19 @@ body {
 }
 
 button {
-    background-color: palevioletred;
+    text-decoration: none;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #B4121D;
+    color: white;
+}
+
+footer {
+    font-size: 12px;
 }

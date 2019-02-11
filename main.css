@@ -1,0 +1,49 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(232, 163, 16, 0.982);
+}
+
+.click-me {
+    background:rgb(0, 0, 0);
+    color: white;
+    padding: 5px;
+    margin: 3px;
+    margin-left: 25px;
+}
+
+#image-section, #coin-image {
+    background: black;
+    border: 1px solid black;
+    width: 100px;
+    height: 125px;
+    position: relative;
+    margin-bottom: 14px;
+}
+
+#head-tails-container {
+    margin-bottom: 5px;
+}
+
+a {
+    color: black
+}
+
+#wins {
+    color: green;
+}
+
+#losses {
+    color: red;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
+
+
+

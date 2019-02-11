@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Coin Toss</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <u>Play Coin Toss</u> !
+        </h1>
+    </header>
+    <main>
+        <section>
+            <h2>Heads or Tails?</h2>
+        </section>
+        <section id="head-tails-container">
+            <a id="heads-count"></a><br>
+            <a id="tails-count"></a><br>
+        </section>
+        <section id="image-section" >
+            <img src="" id="coin-image" class ="hidden" alt="heads or tails image">
+        </section>
+        <section>
+            <form id="pick-form">
+                <label>
+                    <input id="heads-radio" type="radio" name="radio" value="Heads" required>Heads
+                </label>
+                <label>
+                    <input id="tails-radio" type="radio" name="radio" value="Tails">Tails
+                </label>
+                <br>
+                <button type="submit" class="click-me">Click Me!</button>
+            </form>
+        </section>
+        <section>
+            <a id="wins"></a>
+            <br>
+            <a id="losses"></a>
+        </section>
+    </main>
+    <footer>
+        <a href="wins-losses-page.html">Pit Boss</a>
+    </footer>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

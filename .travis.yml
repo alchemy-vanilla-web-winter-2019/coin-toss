@@ -4,4 +4,4 @@ before_script:
   - npm i eslint esm
 script:
   - npx eslint .
-  - npx qunit test/index.js
+  # - npx qunit test/index.js

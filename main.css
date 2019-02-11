@@ -14,13 +14,17 @@ body {
     margin-left: 25px;
 }
 
-#image-section, #coin-image, .hidden {
+#image-section, #coin-image {
     background: black;
     border: 1px solid black;
     width: 100px;
     height: 125px;
     position: relative;
     margin-bottom: 14px;
+}
+
+#head-tails-container {
+    margin-bottom: 5px;
 }
 
 a {
@@ -31,8 +35,15 @@ a {
     color: green;
 }
 
-#loss {
+#losses {
     color: red;
 }
+
+.hidden {
+    visibility: hidden;
+}
+
+
+
 
 

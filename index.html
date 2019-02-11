@@ -10,25 +10,28 @@
 <body>
     <header>
         <h1>
-            Play Coin Toss !
+            <u>Play Coin Toss</u> !
         </h1>
     </header>
     <main>
         <section>
             <h2>Heads or Tails?</h2>
         </section>
-        <section>
-            <a id="heads-count"></a>
-            <br>
-            <a id="tails-count"></a>
+        <section id="head-tails-container">
+            <a id="heads-count"></a><br>
+            <a id="tails-count"></a><br>
         </section>
-        <section id="image-section" class="hidden">
+        <section id="image-section" >
             <img src="" id="coin-image" class ="hidden" alt="heads or tails image">
         </section>
         <section>
             <form id="pick-form">
-                <input id="heads-radio" type="radio" name="radio" value="heads" required>Heads
-                <input id="tails-radio" type="radio" name="radio" value="tails">Tails
+                <label>
+                    <input id="heads-radio" type="radio" name="radio" value="Heads" required>Heads
+                </label>
+                <label>
+                    <input id="tails-radio" type="radio" name="radio" value="Tails">Tails
+                </label>
                 <br>
                 <button type="submit" class="click-me">Click Me!</button>
             </form>
@@ -36,11 +39,11 @@
         <section>
             <a id="wins"></a>
             <br>
-            <a id="loss"></a>
+            <a id="losses"></a>
         </section>
     </main>
     <footer>
-
+        <a href="wins-losses-page.html">Pit Boss</a>
     </footer>
     <script type="module" src="index.js"></script>
 </body>

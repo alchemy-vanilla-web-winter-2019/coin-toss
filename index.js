@@ -2,25 +2,22 @@ import coinToss from './coin-toss.js';
 
 const pickForm = document.getElementById('pick-form');
 const image = document.getElementById('coin-image');
-const remove = document.getElementById('image-section');
 const headsCount = document.getElementById('heads-count');
 const tailsCount = document.getElementById('tails-count');
-//const winsCount = document.getElementById('wins');
-// const lossCount = document.getElementById('loss');
-//const headsRadio = document.getElementsById('heads-radio').checked;
-// const tailsRadio = document.getElementsById('tails-radio').checked;
-
+const winsCount = document.getElementById('wins');
+const lossesCount = document.getElementById('losses');
 
 let heads = 0;
 let tails = 0;
-let wins = 0;
+let win = 0;
 let loss = 0;
-
 
 pickForm.addEventListener('submit', function(event){
     event.preventDefault();
-    const randomNumber = Math.random();
-    let face = coinToss(randomNumber);
+
+    image.classList.remove('hidden');
+    // const randomNumber = Math.random();
+    let face = coinToss(Math.random());
     if(face === 'Heads') {
         image.src = 'assets/heads.jpeg';
         heads++;
@@ -30,13 +27,24 @@ pickForm.addEventListener('submit', function(event){
         tails++;
         tailsCount.textContent = 'Tails Count: ' + tails;
     }
-    console.log(image);
-    console.log(face);
-    console.log(randomNumber);
+    let radio = pickForm.elements.radio.value;
+    if(face === radio) {
+        win++;
+        document.getElementById('wins').textContent = 'Wins Count: ' + win;
+    } else {
+        loss++;
+        lossesCount.textContent = 'Loss Count: ' + loss;
+    }
     
-    image.classList.add('hidden');
+    let trackingWL = {
+        wins: winsCount.value = win,
+        losses: lossesCount.value = loss,
+    }; console.log('working?', trackingWL);
+
+    localStorage.setItem('Store It', JSON.stringify(trackIt));
+
+    // console.log(image);
+    // console.log(face);
+    // console.log(randomNumber);
 });
 
-// if(document.getElementById('heads-radio').checked) {
-//   }else if(document.getElementById('tails-radio').checked) {
-//   }

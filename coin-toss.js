@@ -8,5 +8,4 @@ function coinToss(randomNumber) {
     return face;
 }
 
-
 export default coinToss;
